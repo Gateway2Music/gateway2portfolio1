@@ -3,13 +3,13 @@
 
 header {
     background-image: url(/Resources/media/Gateway2Music\ -\ Twitch\ Banner.jpg);
-    height: 400px;
+    height: 200px;
 
 }
-nav {
-    text-align: right;
-}
 
+body {
+    background-color: #485885;
+}
 nav li {
     display: inline;
 }
@@ -17,3 +17,18 @@ nav li {
     height: 200px;
 }
 
+#about, #projects {
+    height: 315px;
+    background-color: #21C1EB;
+    color: #0738B8;
+    text-align: left;
+    padding: 10px;
+}
+
+#skills {
+    height: 200px;
+    background-color: #21C1EB;
+}
+.youtube {
+    height: 500px;
+}
