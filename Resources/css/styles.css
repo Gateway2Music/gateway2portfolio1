@@ -1,12 +1,19 @@
-@import url("/Resources/css/960.css");
+@import url("/Resources/css/960_12_col.css");
 
 
 header {
     background-image: url(/Resources/media/Gateway2Music\ -\ Twitch\ Banner.jpg);
-    height: 100px;
+    height: 400px;
 
 }
+nav {
+    text-align: right;
+}
 
+nav li {
+    display: inline;
+}
 .logo {
-    height: 100px;
+    height: 200px;
 }
+
