@@ -4,8 +4,7 @@
 header {
     background-image: url(/Resources/media/Gateway2Music\ -\ Twitch\ Banner.jpg);
     height: 200px;
-    overflow: hidden;
-
+    overflow: auto;
 }
 
 p,
@@ -26,8 +25,13 @@ body {
     background-color: #21C1EB; 
 }
 nav li {
-    display: inline;
+    display: inline;  
 }
+
+a {
+    color: white;
+}
+
 .logo {
     height: 200px;
     margin-top: 35px;
@@ -44,7 +48,6 @@ color: black;
 height: 200px;
 text-align: center;
 margin-top: 30px;
-background-color: white;
 }
 
 footer {
