@@ -8,6 +8,16 @@ header {
 
 }
 
+p,
+li {
+    font-family: 'Original Surfer', cursive;
+}
+
+h1,
+h2 {
+    font-family: 'Pangolin', cursive;
+}
+
 body {
     background-color: #485885;
 }
@@ -20,17 +30,25 @@ nav li {
 }
 .logo {
     height: 200px;
+    margin-top: 35px;
 }
 
 #about, #projects {
     height: 300px;
-    background-color: #21C1EB;
-    color: #0738B8;
+color: black;
     text-align: left;
     padding: 10px;
 }
 
 #skills {
     height: 200px;
-    background-color: #21C1EB;
+margin-left: auto;
+margin-right: auto;
+text-align: center;
+margin-top: 30px;
+}
+
+footer {
+    margin: auto auto;
+    text-align: center;
 }
