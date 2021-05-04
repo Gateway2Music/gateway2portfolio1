@@ -38,6 +38,7 @@ header {
 
  nav li {
      display: inline;
+     justify-self: end;
  
  }
 
@@ -58,6 +59,13 @@ a:hover {
  .logo {
      grid-area: logo;
      place-self: center;
+ }
+
+ .logo img {
+     margin: auto;
+     height: 33vh;
+     width: 33vw;
+     margin: 5em;
  }
 
  .projects {
