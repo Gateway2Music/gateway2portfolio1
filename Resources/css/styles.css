@@ -27,7 +27,10 @@ header {
     ". . ."
     ". . nav";
     grid-area: header;
-    background-image: url(/Resources/media/Gateway2Music\ -\ Twitch\ Banner.jpg)
+    background-image: url(/Resources/media/Gateway2Music\ -\ Twitch\ Banner.jpg);
+    height: 20vh;
+    width: 100vh;
+    place-self: center;
 }
  nav {
      grid-area: nav;
@@ -35,7 +38,16 @@ header {
 
  nav li {
      display: inline;
+ 
  }
+
+ a {
+     color: white;
+    }
+a:hover {
+    color: chartreuse;
+}
+ 
 
 
  .about {
