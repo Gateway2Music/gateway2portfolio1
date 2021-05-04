@@ -68,8 +68,9 @@ a:hover {
      margin: 5em;
  }
 
- .projects {
+ article#projects {
      grid-area: projects;
+     place-self: center;
  }
 
  .youtube {
