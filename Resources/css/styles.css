@@ -28,13 +28,16 @@ header {
     ". . nav";
     grid-area: header;
     background-image: url(/Resources/media/Gateway2Music\ -\ Twitch\ Banner.jpg);
-    height: 20vh;
-    width: 100vh;
+    height: 100%;
+    width: 100%;
     place-self: center;
     background-repeat: no-repeat;
+    margin: 2vmax;
 }
  nav {
      grid-area: nav;
+     justify-self: end;
+     margin: 2vmax; 
  }
 
  nav li {
@@ -44,7 +47,7 @@ header {
  }
 
  a {
-     color: darkmagenta;
+     color: white;
     }
 a:hover {
     color: chartreuse;
