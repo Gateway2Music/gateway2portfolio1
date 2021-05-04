@@ -1,13 +1,78 @@
-@import url("960_12_col.css");
-
-
-header {
-    background-image: url(/Resources/media/Gateway2Music\ -\ Twitch\ Banner.jpg);
-    height: 200px;
-    overflow: auto;
+body {
+    background-color: #485885;
 }
 
-p,
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto;
+    gap: 10px 10px;
+    grid-template-areas: 
+    "header header header header" 
+    "logo logo about about"
+    "projects projects youtube youtube" 
+    "skills skills skills skills" 
+    "footer footer footer footer";
+    padding: 3vmax;
+    margin: 6vmin;
+    background-color: #21C1EB;
+    justify-content: center;
+}
+header {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 0px 0px;
+    grid-template-areas:
+    ". . ."
+    ". . nav";
+    grid-area: header;
+    background-image: url(/Resources/media/Gateway2Music\ -\ Twitch\ Banner.jpg)
+}
+ nav {
+     grid-area: nav;
+ }
+
+ nav li {
+     display: inline;
+ }
+
+
+ .about {
+     grid-area: about;
+     place-self: center;
+ }
+
+ .logo {
+     grid-area: logo;
+     place-self: center;
+ }
+
+ .projects {
+     grid-area: projects;
+ }
+
+ .youtube {
+     grid-area: youtube;
+     margin-bottom: 10em;
+ }
+
+ .youtube iframe {
+     height: 200%;
+     width: 100%;
+ }
+
+ .skills {
+     grid-area: skills;
+     place-self: center;
+ }
+
+ footer {
+     grid-area: footer;
+     place-self: center;
+ }
+ 
+ p,
 li {
     font-family: 'Original Surfer', cursive;
 }
@@ -15,42 +80,3 @@ li {
 h1,
 h2 {
     font-family: 'Pangolin', cursive;
-}
-
-body {
-    background-color: #485885;
-}
-
-.full {
-    background-color: #21C1EB; 
-}
-nav li {
-    display: inline;  
-}
-
-a {
-    color: white;
-}
-
-.logo {
-    height: 200px;
-    margin-top: 35px;
-}
-
-#about, #projects {
-    height: 300px;
-color: black;
-    text-align: left;
-    padding: 10px;
-}
-
-#skills {
-height: 200px;
-text-align: center;
-margin-top: 30px;
-}
-
-footer {
-    margin: auto auto;
-    text-align: center;
-}
