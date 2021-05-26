@@ -1,0 +1,49 @@
+body {
+    background-color: #485885;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+    "logo" 
+    "name"
+    "nav"
+    "contact";
+    gap: 0 10px;
+    background-color: #21C1EB;
+}
+
+.logo {
+    place-self: center;
+}
+
+.name {
+    grid-area: name;
+    place-self: center;
+}
+.contact {
+    grid-area: contact;
+    place-self: center;
+}
+
+p,
+li {
+    font-family: 'Original Surfer', cursive;
+}
+
+h1,
+h2 {
+    font-family: 'Pangolin', cursive;
+}
+
+nav li {
+    display: inline;
+    grid-area: nav;
+    place-self: center;
+}
+
+nav {
+    place-self: center;
+}
